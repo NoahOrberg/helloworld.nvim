@@ -1,0 +1,11 @@
+hash: c343dbf62a0d38fc60558c18d890c2fda616ec8f15b187b6533820b95da3a257
+updated: 2017-12-11T15:38:33.813280725+09:00
+imports:
+- name: github.com/neovim/go-client
+  version: 11df26a7bb73a1694f64cb668d689402630a50ff
+  subpackages:
+  - msgpack
+  - msgpack/rpc
+  - nvim
+  - nvim/plugin
+testImports: []

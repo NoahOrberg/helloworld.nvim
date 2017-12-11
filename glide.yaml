@@ -1,0 +1,5 @@
+package: github.com/NoahOrberg/helloworld.nvim
+import:
+- package: github.com/neovim/go-client
+  subpackages:
+  - nvim/plugin
