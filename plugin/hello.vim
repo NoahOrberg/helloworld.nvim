@@ -10,5 +10,6 @@ endfunction
 call remote#host#Register('helloworld.nvim', 'x', function('s:RequireHelloworld'))
 
 call remote#host#RegisterPlugin('helloworld.nvim', '0', [
+\ {'type': 'command', 'name': 'HelloCmd', 'sync': 1, 'opts': {'nargs': '1'}},
 \ {'type': 'function', 'name': 'Hello', 'sync': 1, 'opts': {}},
 \ ])
