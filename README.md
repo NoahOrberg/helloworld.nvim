@@ -1,3 +1,3 @@
 # HelloWorld.nvim
 
-はろーわーるど
+はろーわーるど (and こまんど)
